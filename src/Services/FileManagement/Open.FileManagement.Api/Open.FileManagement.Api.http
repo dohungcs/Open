@@ -1,0 +1,6 @@
+@Open.FileManagement.Api_HostAddress = http://localhost:5177
+
+GET {{Open.FileManagement.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

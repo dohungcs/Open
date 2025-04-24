@@ -42,6 +42,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.User.Api", "src\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.Gateway", "src\Gateways\Open.Gateway\Open.Gateway.csproj", "{0DB6179F-D229-4D7F-A80C-23207FAE8B92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileManagement", "FileManagement", "{30D4AE8D-C8DD-4E58-9145-F74AA5C4A047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.FileManagement.Api", "src\Services\FileManagement\Open.FileManagement.Api\Open.FileManagement.Api.csproj", "{0F6873C0-F798-490E-BF9D-2042CFCB6F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.FileManagement.Domain", "src\Services\FileManagement\Open.FileManagement.Domain\Open.FileManagement.Domain.csproj", "{E7743B75-3345-472B-8D45-0D597CF027DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.FileManagement.Infrastructure", "src\Services\FileManagement\Open.FileManagement.Infrastructure\Open.FileManagement.Infrastructure.csproj", "{47790CC8-AE21-4B67-86C7-999F4E841C32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +69,10 @@ Global
 		{C10138F5-480C-4FB2-9D22-6710AD04B0C0} = {7BE70497-7CE5-42C3-9E47-C61C9752E2CB}
 		{33820750-FE37-4688-A766-7D250B9AD1CC} = {312DB5CE-8D6B-40A4-8A3F-9AD461E47A66}
 		{0DB6179F-D229-4D7F-A80C-23207FAE8B92} = {057B372F-844E-495F-BE4D-06081C39B6C6}
+		{30D4AE8D-C8DD-4E58-9145-F74AA5C4A047} = {2D134FE0-6833-4A8E-BB01-58DF97CD7519}
+		{0F6873C0-F798-490E-BF9D-2042CFCB6F3A} = {30D4AE8D-C8DD-4E58-9145-F74AA5C4A047}
+		{E7743B75-3345-472B-8D45-0D597CF027DB} = {30D4AE8D-C8DD-4E58-9145-F74AA5C4A047}
+		{47790CC8-AE21-4B67-86C7-999F4E841C32} = {30D4AE8D-C8DD-4E58-9145-F74AA5C4A047}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C5383723-396D-4EB4-B273-3426815417FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -83,5 +95,17 @@ Global
 		{0DB6179F-D229-4D7F-A80C-23207FAE8B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB6179F-D229-4D7F-A80C-23207FAE8B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DB6179F-D229-4D7F-A80C-23207FAE8B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6873C0-F798-490E-BF9D-2042CFCB6F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6873C0-F798-490E-BF9D-2042CFCB6F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6873C0-F798-490E-BF9D-2042CFCB6F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6873C0-F798-490E-BF9D-2042CFCB6F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7743B75-3345-472B-8D45-0D597CF027DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7743B75-3345-472B-8D45-0D597CF027DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7743B75-3345-472B-8D45-0D597CF027DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7743B75-3345-472B-8D45-0D597CF027DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47790CC8-AE21-4B67-86C7-999F4E841C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47790CC8-AE21-4B67-86C7-999F4E841C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47790CC8-AE21-4B67-86C7-999F4E841C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47790CC8-AE21-4B67-86C7-999F4E841C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
