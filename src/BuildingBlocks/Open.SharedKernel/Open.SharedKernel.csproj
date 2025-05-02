@@ -9,10 +9,31 @@
     <ItemGroup>
       <Folder Include="Domain\Enums\" />
       <Folder Include="Domain\Models\" />
+      <Folder Include="System\Collections\" />
+      <Folder Include="System\IO\" />
+      <Folder Include="System\Runtime\" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Ardalis.GuardClauses" />
+      <PackageReference Include="Ardalis.Result" />
+      <PackageReference Include="JetBrains.Annotations" />
       <PackageReference Include="MediatR" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Diagnostics">
+        <HintPath>..\..\..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.0\ref\net9.0\Microsoft.AspNetCore.Diagnostics.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+        <HintPath>..\..\..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.0\ref\net9.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Results">
+        <HintPath>..\..\..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.0\ref\net9.0\Microsoft.AspNetCore.Http.Results.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+        <HintPath>..\..\..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.0\ref\net9.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
