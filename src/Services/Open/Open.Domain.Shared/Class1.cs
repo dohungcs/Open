@@ -1,5 +1,0 @@
-﻿namespace Open.Domain.Shared;
-
-public class Class1
-{
-}
